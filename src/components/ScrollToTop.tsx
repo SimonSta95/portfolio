@@ -33,13 +33,13 @@ const ScrollToTop: React.FC = () => {
           position: 'fixed',
           bottom: 16,
           right: 16,
-          backgroundColor: '#FFD700', // Golden color that matches the rest of your site
+          backgroundColor: '#FFD700',
           '&:hover': {
-            backgroundColor: '#e6c200', // Darker golden shade on hover
+            backgroundColor: '#e6c200',
           },
         }}
       >
-        <KeyboardArrowUpIcon sx={{ color: '#1e1e2f' }} /> {/* Dark color for the icon to stand out */}
+        <KeyboardArrowUpIcon sx={{ color: '#1e1e2f' }} />
       </Fab>
     </Zoom>
   );
